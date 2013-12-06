@@ -1,0 +1,18 @@
+{
+  "name": "compoo-pcv",
+  "version": "0.1.0",
+  "homepage": "https://github.com/benqus/compoo-pcv",
+  "authors": [
+    "Bence Kormos <ben.kormos@gmail.com>"
+  ],
+  "description": "Presenter - Controller - View framework with Compoo",
+  "main": "src/main.js",
+  "keywords": [
+    "presenter",
+    "view",
+    "controller",
+    "structure",
+    "framework"
+  ],
+  "license": "MIT"
+}
