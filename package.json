@@ -11,7 +11,10 @@
   "description": "Presenter - Controller - View framework with Compoo",
   "main": "src/main.js",
   "devDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jasmine": "~0.5.2"
   },
   "keywords": [
     "presenter",
