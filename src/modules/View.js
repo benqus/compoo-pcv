@@ -1,7 +1,9 @@
 /* global: compoopcv */
 (function (pcv) {
+  var Smarty = pcv.require('Smarty');
+  var $ = pcv.require('$');
   
-  var View = pcv.View = pcv.extend({
+  pcv.View = Smarty.extend({
     
   });
   

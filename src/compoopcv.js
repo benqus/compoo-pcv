@@ -10,9 +10,14 @@
      * @param {String} namespace
      * @return {*}
      */
-    "resolve": function (namespace) {
-      var resolver = new Function('return this.' + namespace);
-      return resolver.call(this);
+    "require": function (namespace) {
+      var resolver;
+      
+      if (typeof namespace === 'string' && namespace) {
+        resolver = new Function('return this.' + namespace);
+      }
+      
+      return resolver && resolver.call(this);
     },
     
     /**

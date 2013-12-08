@@ -1,7 +1,8 @@
 /* global: compoopcv */
 (function (pcv) {
+  var Smarty = pcv.require('Smarty');
   
-  var Block = pcv.Block = pcv.extend({
+  pcv.Block = Smarty.extend({
     
   });
   
